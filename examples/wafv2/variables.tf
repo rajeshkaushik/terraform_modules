@@ -48,7 +48,7 @@ variable "ip_rate_based_rule" {
     name : "ip-rate-limit",
     priority : 50,
     action : "block",
-    limit : 1000
+    limit : 5000
   }
 }
 

@@ -3,6 +3,7 @@ provider "aws" {
   profile = "dev_admin"
 }
 
+/*
 module wafv2_acl {
   source = "../../modules/wafv2"
   name   = "test_web_acl"
@@ -21,3 +22,4 @@ module wafv2_acl {
     testRajesh : "testAcl"
   }
 }
+*/
